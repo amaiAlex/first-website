@@ -1,11 +1,11 @@
 import { Fragment } from 'react';
 import './App.css';
-import FirstPage from './components/FirstPage';
+import FirstBlock from './components/FirstBlock';
 
 function App() {
   return (
     <Fragment>
-      <FirstPage />
+      <FirstBlock />    
     </Fragment>
   );
 }
