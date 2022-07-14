@@ -10,10 +10,10 @@ function FirstBlock() {
         <p>The journey was spiritually enlightening and Alexei became the first person ever to achieve a state of Super-Nirvana. Along his way he never spoke a word and remained abstinent from human contact. Nevertheless, by his sheer presence, he trained numerous disciples and fathered 48 children.</p>
         <div className="columns">
           <a href="https://www.telegram.com">
-           <img src="https://play-lh.googleusercontent.com/ZU9cSsyIJZo6Oy7HTHiEPwZg0m2Crep-d5ZrfajqtsH-qgUXSqKpNA2FpPDTn-7qA5Q" alt="Telegram" width="50" height="50" />
+           <img src="https://avatanplus.com/files/resources/original/5e73948500afa170f37c278b.png" alt="Telegram" width="50" height="50" />
           </a>
           <a href="https://www.instagram.com/ne_smotri.na.menya">
-            <img src="https://englishlib.org/dictionary/img/wlibrary/i/602049775693c8.52478975.jpg" alt="Instagram" width="50" height="50" />
+            <img src="https://pngicon.ru/file/uploads/instagram.png" alt="Instagram" width="50" height="50" />
           </a>
         </div>
        </div>
