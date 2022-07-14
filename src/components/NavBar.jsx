@@ -1,5 +1,4 @@
 import { Navbar, Container } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function NavBar() {
   return (

@@ -1,5 +1,6 @@
 import { Fragment } from 'react';
 import { Routes, Route, BrowserRouter } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import FirstBlock from './components/FirstBlock';
 import NavBar from './components/NavBar';
@@ -11,7 +12,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           {/* If you want to add a new page, just add it in the same way as the line below */}
-          <Route path="/" element={<FirstBlock />   } />
+          <Route path="/" element={<FirstBlock />} />
         </Routes>
       </BrowserRouter>
        
