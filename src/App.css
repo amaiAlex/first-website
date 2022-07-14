@@ -1,4 +1,18 @@
 .app {
-  margin: 100px;
-  border: 1px solid;
+  background: local;
+  background-color: beige;
+}
+.center{
+  margin:2%;
+  text-align: center;
+}
+.columns{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
 }
