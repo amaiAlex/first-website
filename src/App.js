@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import FirstBlock from './components/FirstBlock';
@@ -15,9 +15,7 @@ function App() {
           <Route path="/" element={<FirstBlock />} />
         </Routes>
       </BrowserRouter>
-       
     </Fragment>
-
   );
 }
 

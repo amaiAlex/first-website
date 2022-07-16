@@ -2,21 +2,23 @@
   background: local;
   background-color: beige;
 }
-.center{
-  margin:2%;
+.center {
+  margin: 2%;
   text-align: center;
 }
-.columns{
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
+.columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
-.column{
+.column {
   display: flex;
   flex-direction: column;
   width: 20%;
+  min-width: 350px;
 }
-.nomargin{
-    margin: 0%;
-    padding: 0%;
+.nomargin {
+  margin: 0%;
+  padding: 0%;
 }
