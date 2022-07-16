@@ -28,19 +28,12 @@ function FirstBlock() {
         <p> Noble Prizes in Peace, Physics, and Chemistry</p>
         <p> Youngest chess Grand Master at the age of 9 months</p>
         <p><strong>BOOKS:</strong></p>
-        <div className="nomargin">
-          <p><i>Lessons of life</i></p>
-        </div>
+        <p className="nomargin"><i>Lessons of life</i></p>
         <p>April 2020</p>
-        <div className="nomargin">
-          <p><i>Genius in the flesh</i></p>
-        </div>
+        <p className="nomargin"><i>Genius in the flesh</i></p>
         <p>December 2019</p>
-        <div className="nomargin">
-         <p><i>How to grow your penis in the sun</i></p>
-        </div>
+        <p className="nomargin"><i>How to grow your penis in the sun</i></p>
         <p>November 2017</p>
-        
        </div>
      </div>
     </div>

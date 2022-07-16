@@ -16,9 +16,7 @@ justify-content: space-evenly;
   flex-direction: column;
   width: 20%;
 }
-.nomargin p{
-   
+.nomargin{
     margin: 0%;
     padding: 0%;
-  
 }
