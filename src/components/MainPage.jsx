@@ -1,6 +1,8 @@
-function FirstBlock() {
+import LatestNews from "./LatestNews";
+
+function MainPage() {
   return (
-    <div className="app">
+    <div>
       <h1 className="center">
         <strong>Alexey Lastovetskyi</strong>
       </h1>
@@ -37,25 +39,6 @@ function FirstBlock() {
             gambling career. Don’t hesitate to ask, and your prayers will be
             answered – you just need to address the appropriate deity.
           </p>
-          <div className="columns">
-            <a href="https://www.telegram.com">
-              <img
-                src="https://avatanplus.com/files/resources/original/5e73948500afa170f37c278b.png
-           "
-                alt="Telegram"
-                width="50"
-                height="50"
-              />
-            </a>
-            <a href="https://www.instagram.com/ne_smotri.na.menya">
-              <img
-                src="https://pngicon.ru/file/uploads/instagram.png"
-                alt="Instagram"
-                width="50"
-                height="50"
-              />
-            </a>
-          </div>
         </div>
         <div className="column">
           <p>
@@ -81,10 +64,30 @@ function FirstBlock() {
             <i>How to grow your penis in the sun</i>
           </p>
           <p>November 2017</p>
+          <div className="columns margin-top1">
+            <a href="https://www.telegram.com">
+              <img
+                src="https://avatanplus.com/files/resources/original/5e73948500afa170f37c278b.png
+           "
+                alt="Telegram"
+                width="50"
+                height="50"
+              />
+            </a>
+            <a href="https://www.instagram.com/ne_smotri.na.menya">
+              <img
+                src="https://pngicon.ru/file/uploads/instagram.png"
+                alt="Instagram"
+                width="50"
+                height="50"
+              />
+            </a>
+          </div>
         </div>
       </div>
+      <LatestNews />
     </div>
   );
 }
 
-export default FirstBlock;
+export default MainPage;

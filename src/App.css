@@ -1,9 +1,6 @@
-.app {
-  background: local;
-  background-color: beige;
-}
+
 .center {
-  margin: 2%;
+  padding: 1%;
   text-align: center;
 }
 .columns {
@@ -26,4 +23,15 @@
 .inline-image {
   width: 30px;
   margin-right: 0.5em;
+}
+
+#root {
+  min-height: 100vh;
+  background-color: beige;
+}
+.margin-top1{
+  margin-top: 1em;
+}
+.container{
+  justify-content: start !important;
 }

@@ -9,6 +9,9 @@ export default function NavBar() {
           <img src="/favicon.ico" alt="favicon" className="inline-image" />
           Lesha's Website
         </Navbar.Brand>
+        <Navbar.Brand href="/1">
+          Tools
+        </Navbar.Brand>
       </Container>
     </Navbar>
   );
