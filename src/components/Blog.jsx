@@ -2,9 +2,14 @@ import news from "./news";
 function Blog() {
     return (
       <div>
-    <h2>{news[0].title}</h2>
-    <p>{news[0].text}</p>
-    <img src={news[0].image} alt="doctors" />
+        {news.map(newsEntry => (
+            <div>
+                <h2>{newsEntry.title}</h2>
+                <p>{newsEntry.text}</p>
+                <img src={newsEntry.image} alt="doctors" />
+            </div>
+        ))}
+   
       </div>
     );
   }
