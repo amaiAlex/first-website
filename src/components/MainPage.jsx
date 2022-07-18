@@ -1,4 +1,4 @@
-import LatestNews from "./LatestNews";
+import LatestNews from './LatestNews';
 
 function MainPage() {
   return (
