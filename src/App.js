@@ -7,7 +7,6 @@ import Tools from './components/Tools';
 import Blog from './components/Blog';
 import NavBar from './components/NavBar';
 
-
 function App() {
   return (
     <Fragment>
@@ -17,7 +16,7 @@ function App() {
           {/* If you want to add a new page, just add it in the same way as the line below */}
           <Route path="/" element={<MainPage />} />
           <Route path="/1" element={<Tools />} />
-          <Route path="/blog" element={<Blog/>} />
+          <Route path="/blog" element={<Blog />} />
         </Routes>
       </BrowserRouter>
     </Fragment>
