@@ -34,3 +34,34 @@
 .container {
   justify-content: start !important;
 }
+.columns-news {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.column-news {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  min-width: 350px;
+}
+.column-news-image {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  min-width: 350px;
+}
+.link-button {
+  display: flex;
+  color: rgb(2, 2, 2);
+  width: 220px;
+}
+.arrow {
+  text-decoration: none;
+}
+.arrow::after {
+  content: '→';
+  display: inline-block;
+  margin-left: 0.5em;
+}
